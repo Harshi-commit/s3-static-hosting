@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "nehanth-bucket-unique-name" # Replace with a unique bucket name
-  # acl = "public-read" # Keep this commented out or removed as per previous fix
+  bucket = "2397907-s3_static" # Replace with a unique bucket name
+  # acl = "public-read" 
 
   website {
     index_document = "index.html"
